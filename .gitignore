@@ -1,0 +1,100 @@
+# Environment Configuration
+config/config.local.php
+.env
+.env.local
+.env.production
+
+# Upload Directories (User Content)
+uploads/payment_proof/*
+uploads/payment_qr/*
+!uploads/payment_qr/.gitkeep
+
+# Backup Directories
+backups/*
+!backups/.gitkeep
+
+# Logs
+logs/
+*.log
+error.log
+access.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP Files
+vendor/
+composer.lock
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Cache
+cache/
+*.cache
+
+# Session Files
+/sess_*
+!sessions/.gitkeep
+
+# Sensitive Data
+sensitive/
+private/
+credentials/
+
+# Development
+dev/
+testing/
+staging/
+
+# Node Modules (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Outputs
+dist/
+build/
+
+# Adobe Photoshop
+*.psd
+*.ai
+
+# Microsoft Office
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Video Files
+*.mp4
+*.mov
+*.avi
+
+# Audio Files
+*.mp3
+*.wav
