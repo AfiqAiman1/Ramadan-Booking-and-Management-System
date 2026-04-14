@@ -6,7 +6,7 @@ A comprehensive Ramadan Iftar buffet booking management system with multi-role a
 
 ### 🎯 Core Functionality
 - **Online Booking System** with real-time slot availability
-- **Multi-Role User Management** (Admin, Banquet, Entry Duty, Entertainment, Staff, Finance)
+- **Multi-Role User Management** (Admin, Banquet, Entry Duty, Staff, Finance)
 - **Payment Verification** with proof upload and admin approval workflow
 - **Dynamic Pricing** with special promotional rates
 - **Check-in Management** with ticket validation and reprint capabilities
